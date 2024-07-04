@@ -5,13 +5,13 @@ import markdown
 
 
 app = Flask(__name__)
-
+# define the open_api_key
 # Simulated chatbot function
 from openai import OpenAI
 client = OpenAI(api_key= OPENAI_API_KEY)
 assistant = client.beta.assistants.create(
-    name="health Assistant",
-    instructions="You are a useful health assistant. Answer and chat with patients and answer questions or concerns which are ONLY RELATED TO HEALTH OR MEDICINE, else YOU DON'T KNOW!!.",
+    name="medical Assistant",
+    instructions="You are a useful medical assistant. Answer and chat with patients and answer questions or concerns which are ONLY RELATED TO HEALTH OR MEDICINE!.",
     tools=[{"type": "code_interpreter"}],
     model="gpt-4o")
 thread = client.beta.threads.create()
@@ -25,7 +25,8 @@ def chat(prompt):
   run = client.beta.threads.runs.create_and_poll(
     thread_id=thread.id,
     assistant_id=assistant.id,
-    instructions="Only answer questions about 'health','medicine', or 'mental health', else  you must return 'I am sorry I don't know about that.I only deal with medicine and health issues. Please contact the customer care for more direction'.BE BRIEF, again, 'BE BRIEF."
+    instructions="Only answer questions about 'health','medicine', or 'mental health', else  you must return 'I am sorry I don't know about that.I only deal with medicine and health issues. Please contact the customer care for more direction'.BE BRIEF."
+
   )
   if run.status == 'completed': 
     messages = client.beta.threads.messages.list(
