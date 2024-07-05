@@ -3,7 +3,6 @@ import markdown
 
 app = Flask(__name__)
 # define the open_api_key
-# Simulated chatbot function
 from openai import OpenAI
 client = OpenAI(api_key= OPENAI_API_KEY)
 assistant = client.beta.assistants.create(
@@ -36,7 +35,7 @@ def get_ai_response(prompt):
 
 
 def chatbot_response(user_input):
-    # Replace this with your actual chatbot logic
+    # The llms return a markdown file that needs to be converted to the .html file for rendering on ui
     response = f"{markdown.markdown(get_ai_response(user_input))}"
     return response
 
@@ -56,12 +55,6 @@ def chat():
     })
 
    
-
-    # if request.method == 'POST':
-    #     user_input = request.form['user_input']
-    #     bot_response = chatbot_response(user_input)
-    #     return render_template('index.html', user_input=user_input, bot_response=bot_response)
-    # return render_template('index.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
