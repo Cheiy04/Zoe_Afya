@@ -1,0 +1,213 @@
+/* Global Styles */
+body {
+    font-family: 'Arial, sans-serif';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .navbar-menu {
+    display: flex;
+    list-style: none;
+  }
+  
+  .navbar-item {
+    margin-left: 1rem;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .login-button {
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    text-align: center;
+    padding: 4rem 2rem;
+    background-color: #e9f5f8;
+  }
+  
+  .hero-title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #007bff;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #555;
+  }
+  
+  .get-started-button {
+    padding: 0.75rem 1.5rem;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Feature Section */
+  .feature-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2rem;
+    background-color: #fff;
+  }
+  
+  .feature-item {
+    flex: 1 1 45%;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .feature-title {
+    font-size: 1.5rem;
+    color: #007bff;
+    margin-bottom: 0.5rem;
+  }
+  
+  .feature-description {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Services Section */
+  .services-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2rem;
+    background-color: #f8f8f8;
+  }
+  
+  .service-item {
+    flex: 1 1 30%;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .service-image {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+  }
+  
+  .service-title {
+    font-size: 1.5rem;
+    color: #007bff;
+    margin-bottom: 0.5rem;
+  }
+  
+  .service-description {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 1rem;
+  }
+  
+  .chat-now-button {
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Testimonials Section */
+  .testimonials-section {
+    text-align: center;
+    padding: 4rem 2rem;
+    background-color: #e9f5f8;
+  }
+  
+  .testimonials-title {
+    font-size: 2rem;
+    color: #007bff;
+    margin-bottom: 2rem;
+  }
+  
+  .testimonial-item {
+    margin-bottom: 2rem;
+  }
+  
+  .testimonial-text {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 0.5rem;
+  }
+  
+  .testimonial-author {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Footer */
+  .footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .footer-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .footer-menu {
+    display: flex;
+    list-style: none;
+  }
+  
+  .footer-item {
+    margin-left: 1rem;
+  }
+  
+  .footer-links, .footer-company {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer-link-item, .footer-company-item {
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer-copy {
+    text-align: center;
+    width: 100%;
+    margin-top: 1rem;
+    border-top: 1px solid #555;
+    padding-top: 1rem;
+  }
+  
