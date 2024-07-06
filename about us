@@ -1,0 +1,28 @@
+// App.js
+
+import React, { useState } from 'react';
+
+const App = () => {
+  const [content, setContent] = useState('');
+
+  const handleAboutUsClick = () => {
+    setContent('About Us: We are a dedicated to providing the best services and mental care .We know that mental health is important and here to prove it is.');
+  };
+
+  const handleContactUsClick = () => {
+    setContent('Contact Us: You can reach us at zoeafya@gmail.com.or call us at (0710) 770-911.');
+  };
+
+  return (
+    <div style={{ textAlign: 'center', marginTop: '50px' }}>
+      <h1>Welcome to Our Website</h1>
+      <button onClick={handleAboutUsClick} style={{ margin: '10px', padding: '10px 20px' }}>About Us</button>
+      <button onClick={handleContactUsClick} style={{ margin: '10px', padding: '10px 20px' }}>Contact Us</button>
+      <div style={{ marginTop: '20px' }}>
+        <p>{content}</p>
+      </div>
+    </div>
+  );
+};
+
+export default App;
