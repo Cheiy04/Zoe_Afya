@@ -49,12 +49,16 @@ const BookOnlinePage = () => {
       console.log(data);
       alert('Appointment confirmed! You will receive an SMS shortly.');
       setShowPopup(false);
-      window.location.href = '/';
+      window.location.href = '/home';
     } catch (error) {
       console.error(error);
       setShowPopup(false)
       alert('Failed to send SMS. Please try again.');
     }
+  };
+
+  const handleCloseClick = ()=>{
+    setShowPopup(false);
   };
   
   
@@ -103,7 +107,8 @@ const BookOnlinePage = () => {
       {showPopup && (
         <div className="popup">
           <div className="popup-content">
-            <h2>Confirm Appointment</h2>
+            <button className="close-button" onClick={handleCloseClick}>X</button>
+            <h2>Book Appointment</h2>
             <input
               type="text"
               name="name"
@@ -111,6 +116,7 @@ const BookOnlinePage = () => {
               value={formData.name}
               onChange={handleInputChange}
               className="popup-input"
+              required
             />
             <input
               type="text"
@@ -119,6 +125,7 @@ const BookOnlinePage = () => {
               value={formData.number}
               onChange={handleInputChange}
               className="popup-input"
+              required
             />
             <input
               type="email"
