@@ -30,7 +30,7 @@ const ContactPage = () => {
         <Navbar />
         <div className="contact-page">
       
-            <h2 className="contact-title">Contact Page</h2>
+            <h2 className="contact-title">Contact Us</h2>
             <p className="contact-intro">If you have any inquiries, please feel free to send us a message. We'd love to hear from you!</p>
             
             <form className="contact-form" onSubmit={handleSubmit}>
