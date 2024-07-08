@@ -1,9 +1,15 @@
+
+const dotenv = require('dotenv')
 const AfricasTalking = require('africastalking');
+
+
+// Config dotenv
+dotenv.config()
 
 // TODO: Initialize Africa's Talking
 const africastalking = AfricasTalking({
-    apiKey:'0b9e3865120f1df6a1fc4ed200bda7465ea820a518f73b5f1c39b434a6b56815',
-    username: 'Broadsword'
+    apiKey: process.env.AT_KEY,
+    username: process.env.AT_USERNAME
 })
 
 
