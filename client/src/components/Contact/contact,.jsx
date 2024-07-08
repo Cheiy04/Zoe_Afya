@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './contact.css'
 import Navbar from '../Navbar/navbar';
 import Footer from '../Footer/footer';
+import config from '../../../config'
 
 const ContactPage = () => {
   const [formData, setFormData] = useState({
@@ -18,11 +19,30 @@ const ContactPage = () => {
     });
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // handle form submission logic here
-    console.log('Form data submitted:', formData);
-    alert('Thank you for your message. We will get back to you soon.');
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+    const formData = new FormData(event.target);
+    
+
+    formData.append("access_key", config.webKey );
+
+    const object = Object.fromEntries(formData);
+    const json = JSON.stringify(object);
+
+    const res = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json"
+      },
+      body: json
+    })
+    const result = await res.json();
+
+    if (result.success) {
+      alert("Email has been successfuly sent to ZoAfya Org.");
+      window.location.href = '/home'
+    };
   };
 
   return (
