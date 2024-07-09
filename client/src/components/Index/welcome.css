@@ -1,5 +1,94 @@
-.welcome-page{
+/* WelcomePageStyles.css */
+
+.welcome-page {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .navbar {
     display: flex;
-    justify-content: center;
-    
-}
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #9926f0;
+  }
+  
+  .navbar-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .navbar-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(187, 110, 245, 0.95));
+    color: white;
+    transition: background-color 0.3s;
+  }
+  
+  .navbar-button:hover {
+    background-color: #6a0dad;
+  }
+  
+  .header {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .header h1 {
+    font-size: 36px;
+    color: #4b0082;
+  }
+  
+  .header p {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  .get-started-button {
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(187, 110, 245, 0.95));
+    color: white;
+    transition: background-color 0.3s;
+  }
+  
+  .get-started-button:hover {
+    background-color: #6a0dad;
+  }
+  
+  .main-content {
+    padding: 50px 20px;
+    background-color: #fff;
+  }
+  
+  .section {
+    margin-bottom: 50px;
+  }
+  
+  .section h2 {
+    font-size: 28px;
+    color: #4b0082;
+    margin-bottom: 20px;
+  }
+  
+  .section p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+  }
+  
