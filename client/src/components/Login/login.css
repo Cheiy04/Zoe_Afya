@@ -1,0 +1,133 @@
+/* LoginStyles.css */
+
+/* AuthStyles.css */
+
+.auth-page{
+  font-family: Arial, sans-serif;
+  background: url('https://source.unsplash.com/featured/?mental-health') no-repeat ;
+  background-size: cover;
+  margin-top: 50px;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.auth-container {
+  background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(187, 110, 245, 0.95));
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.auth-form-group {
+  margin-bottom: 15px;
+}
+
+.auth-label {
+  display: block;
+  margin-bottom: 5px;
+  color: white;
+}
+
+.auth-input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.auth-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.auth-button:hover {
+  background-color: #0056b3;
+}
+
+.auth-text {
+  margin-top: 20px;
+  color: white;
+}
+
+.auth-link {
+  color: #ffdd57;
+  text-decoration: none;
+}
+
+.auth-link:hover {
+  text-decoration: underline;
+}
+
+
+.login-container h2 {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.login-form-group {
+  margin-bottom: 15px;
+}
+
+.login-label {
+  display: block;
+  margin-bottom: 5px;
+  color: white;
+}
+
+.login-input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.login-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.login-button:hover {
+  background-color: #0056b3;
+}
+
+.login-text {
+  margin-top: 20px;
+  color: white;
+}
+
+.login-link {
+  color: #ffdd57;
+  text-decoration: none;
+}
+
+.login-link:hover {
+  text-decoration: underline;
+}
+
+
+  
