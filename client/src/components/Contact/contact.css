@@ -1,57 +1,97 @@
+
 .contact-page {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-    margin-top: 50px;
-  }
+  max-width: 700px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding: 20px;
+  margin-top: 80px;
+  border-radius: 5px;
+  background-image: url('./doctor_5.jpg');
+  background-size: cover; /* Ensure the image covers the entire background */
+  background-position: center; /* Center the image */
+  position: relative; /* Positioning context for the overlay */
+}
+
+.contact-page::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5); /* Dark overlay for better text visibility */
+  z-index: 1; /* Place the overlay below the content */
+}
+
+.contact-page > * {
+  position: relative;
+  z-index: 2; /* Ensure the content is above the overlay */
+}
+
+.contact-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 3rem;
+  display: flexbox;
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+  background-color: rgba(165, 63, 243, 0.8); 
+  border-radius: 5px; 
+}
+
+.contact-intro {
+  text-align: center;
+  margin-bottom: 80px;
+  font-size: 1.2rem;
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+  border-radius: 5px; 
+}
+
+.contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: -1px;
   
-  .contact-title {
-    text-align: center;
-    margin-bottom: 20px;
-    font-size: 2rem;
-  }
-  
-  .contact-intro {
-    text-align: center;
-    margin-bottom: 40px;
-    font-size: 1.2rem;
-  }
-  
-  .contact-form .form-group {
-    margin-bottom: 20px;
-  }
-  
-  .contact-form label {
-    display: block;
-    margin-bottom: 5px;
-  }
-  
-  .contact-form .form-control {
-    width: 100%;
-    padding: 10px;
-    font-size: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  .contact-form .form-control:focus {
-    border-color: #007bff;
-    outline: none;
-  }
-  
-  .contact-form .submit-button {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    font-size: 1.2rem;
-    color: #fff;
-    background-color: #007bff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .contact-form .submit-button:hover {
-    background-color: #0056b3;
-  }
-  
+  margin-right: 550px;
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.contact-form .form-control {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 2px solid #5eb06b;
+  border-radius: 5px;
+}
+
+.contact-form .form-control:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.contact-form .submit-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 1.2rem;
+  color: #161414;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s ease, transform 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.contact-form .submit-button:hover {
+  background-color: #f2a109;
+  transform: scale(1.04);
+}
+
+
+
