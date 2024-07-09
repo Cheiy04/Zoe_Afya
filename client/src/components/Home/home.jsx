@@ -40,7 +40,6 @@ function HomePage() {
         </header>
           
 
-
         <section className="feature-section">
           <div className="feature-item feature-reverse">
             <div className="feature-content">

@@ -8,7 +8,6 @@ import Footer from '../Footer/footer';
 
 
 
-
 const BookOnlinePage = () => {
   const [showPopup, setShowPopup] = useState(false);
   const [formData, setFormData] = useState({
@@ -96,7 +95,7 @@ const BookOnlinePage = () => {
         </div>
 
         <div className="service-item">
-          <img src="https://static.wixstatic.com/media/11062b_8238f9663ccb4d44bc34815c5b40364f~mv2.jpeg/v1/fill/w_290,h_194,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/11062b_8238f9663ccb4d44bc34815c5b40364f~mv2.jpeg" alt="Psychotherapy" className="service-image" />
+          <img src="https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHBlcnNvbmF8ZW58MHx8MHx8fDA%3D" alt="Psychotherapy" className="service-image" />
           <h2 className="service-title">Dr. Leo Calm, Anesthesiologist</h2>
           <p>I'm Dr. Leo Calm, your Anesthesiologist ensuring comfort and safety during surgical procedures. I specialize in pain management and anesthesia administration, ensuring a smooth surgical experience and effective post-operative pain relief. Your well-being is in capable hands with me.</p>
           <p className="service-duration">Estimated Time: 1 hr</p>
@@ -105,7 +104,7 @@ const BookOnlinePage = () => {
         </div>
 
         <div className="service-item">
-          <img src="https://static.wixstatic.com/media/11062b_8238f9663ccb4d44bc34815c5b40364f~mv2.jpeg/v1/fill/w_290,h_194,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/11062b_8238f9663ccb4d44bc34815c5b40364f~mv2.jpeg" alt="Psychotherapy" className="service-image" />
+          <img src="https://plus.unsplash.com/premium_photo-1689551671541-31a345ce6ae0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHBlcnNvbmF8ZW58MHx8MHx8fDA%3D" alt="Psychotherapy" className="service-image" />
           <h2 className="service-title">Dr. Leo Calm, Anesthesiologist</h2>
           <p>I'm Dr. Leo Calm, your Anesthesiologist ensuring comfort and safety during surgical procedures. I specialize in pain management and anesthesia administration, ensuring a smooth surgical experience and effective post-operative pain relief. Your well-being is in capable hands with me.</p>
           <p className="service-duration">Estimated Time: 1 hr</p>
@@ -114,7 +113,7 @@ const BookOnlinePage = () => {
         </div>
 
         <div className="service-item">
-          <img src="https://static.wixstatic.com/media/11062b_8238f9663ccb4d44bc34815c5b40364f~mv2.jpeg/v1/fill/w_290,h_194,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/11062b_8238f9663ccb4d44bc34815c5b40364f~mv2.jpeg" alt="Psychotherapy" className="service-image" />
+          <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHBlcnNvbmF8ZW58MHx8MHx8fDA%3D" alt="Psychotherapy" className="service-image" />
           <h2 className="service-title">Dr. Leo Calm, Anesthesiologist</h2>
           <p>I'm Dr. Leo Calm, your Anesthesiologist ensuring comfort and safety during surgical procedures. I specialize in pain management and anesthesia administration, ensuring a smooth surgical experience and effective post-operative pain relief. Your well-being is in capable hands with me.</p>
           <p className="service-duration">Estimated Time: 1 hr</p>
@@ -123,7 +122,7 @@ const BookOnlinePage = () => {
         </div>
 
         <div className="service-item">
-          <img src="https://static.wixstatic.com/media/11062b_8238f9663ccb4d44bc34815c5b40364f~mv2.jpeg/v1/fill/w_290,h_194,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/11062b_8238f9663ccb4d44bc34815c5b40364f~mv2.jpeg" alt="Psychotherapy" className="service-image" />
+          <img src="https://plus.unsplash.com/premium_photo-1689551670902-19b441a6afde?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fHww" alt="Psychotherapy" className="service-image" />
           <h2 className="service-title">Dr. Leo Calm, Anesthesiologist</h2>
           <p>I'm Dr. Leo Calm, your Anesthesiologist ensuring comfort and safety during surgical procedures. I specialize in pain management and anesthesia administration, ensuring a smooth surgical experience and effective post-operative pain relief. Your well-being is in capable hands with me.</p>
           <p className="service-duration">Estimated Time: 1 hr</p>
@@ -132,7 +131,7 @@ const BookOnlinePage = () => {
         </div>
 
         <div className="service-item">
-          <img src="https://static.wixstatic.com/media/11062b_8238f9663ccb4d44bc34815c5b40364f~mv2.jpeg/v1/fill/w_290,h_194,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/11062b_8238f9663ccb4d44bc34815c5b40364f~mv2.jpeg" alt="Psychotherapy" className="service-image" />
+          <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cGVyc29uYXxlbnwwfHwwfHx8MA%3D%3D" alt="Psychotherapy" className="service-image" />
           <h2 className="service-title">Dr. Leo Calm, Anesthesiologist</h2>
           <p>I'm Dr. Leo Calm, your Anesthesiologist ensuring comfort and safety during surgical procedures. I specialize in pain management and anesthesia administration, ensuring a smooth surgical experience and effective post-operative pain relief. Your well-being is in capable hands with me.</p>
           <p className="service-duration">Estimated Time: 1 hr</p>
@@ -141,7 +140,7 @@ const BookOnlinePage = () => {
         </div>
 
         <div className="service-item">
-          <img src="https://static.wixstatic.com/media/11062b_8238f9663ccb4d44bc34815c5b40364f~mv2.jpeg/v1/fill/w_290,h_194,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/11062b_8238f9663ccb4d44bc34815c5b40364f~mv2.jpeg" alt="Psychotherapy" className="service-image" />
+          <img src="https://plus.unsplash.com/premium_photo-1689568158814-3b8e9c1a9618?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cGVyc29uYXxlbnwwfHwwfHx8MA%3D%3D" alt="Psychotherapy" className="service-image" />
           <h2 className="service-title">Dr. Leo Calm, Anesthesiologist</h2>
           <p>I'm Dr. Leo Calm, your Anesthesiologist ensuring comfort and safety during surgical procedures. I specialize in pain management and anesthesia administration, ensuring a smooth surgical experience and effective post-operative pain relief. Your well-being is in capable hands with me.</p>
           <p className="service-duration">Estimated Time: 1 hr</p>

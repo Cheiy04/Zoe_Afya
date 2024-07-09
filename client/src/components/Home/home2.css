@@ -212,7 +212,7 @@ body {
   flex: 1 1 calc(25% - 2rem); /* Adjust percentage based on 4 items per row */
   max-width: 380px;
   margin: 1rem;
-  background-color: #fff;
+  background-color: #dbd9d9;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s ease-in-out;

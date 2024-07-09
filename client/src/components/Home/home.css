@@ -32,7 +32,7 @@ body {
   .navbar-item {
     margin-left: 1rem;
     font-size: 1rem;
-    color: #333;
+    color: #0c0c0c;
   }
   
   .login-button {
@@ -114,7 +114,7 @@ body {
     padding: 1rem;
     border: 1px solid #ddd;
     border-radius: 5px;
-    background-color: #fff;
+    background-color: #ffc9c9 !important;
   }
   
   .service-image {
@@ -131,7 +131,7 @@ body {
   
   .service-description {
     font-size: 1rem;
-    color: #555;
+    color: #000000;
     margin-bottom: 1rem;
   }
   
