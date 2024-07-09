@@ -29,7 +29,7 @@ export default function Navbar(){
         <li className="navbar-item"><Link className="nav-item" to="/chatbot">Chatbot</Link></li>
         <li className="navbar-item"><Link to='/contact'>Contact</Link></li>
       </ul>
-      <button className="login-button">Login</button>
+      
     </nav>
     )
 }
