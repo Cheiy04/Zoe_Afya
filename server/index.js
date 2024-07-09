@@ -1,5 +1,5 @@
-const smsServer = require('./smsServer')
+const runServer = require('./server')
 
 //Running the server
 
-smsServer()
+runServer()
