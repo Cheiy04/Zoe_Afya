@@ -65,7 +65,7 @@ const LoginPage = () => {
               required
             />
           </div>
-          <button type="submit" className="auth-button login-button">Login</button>
+          <button type="submit" className="auth-button login-button-page">Login</button>
         </form>
         <p className="auth-text login-text">
           Don't have an account? <Link to="/signup" className="auth-link login-link">Sign up here</Link>
