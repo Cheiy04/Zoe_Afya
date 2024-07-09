@@ -6,7 +6,7 @@
   padding: 20px;
   margin-top: 80px;
   border-radius: 5px;
-  background-image: url('./doctor_5.jpg');
+  /* background-image: url('./doctor_5.jpg'); */
   background-size: cover; /* Ensure the image covers the entire background */
   background-position: center; /* Center the image */
   position: relative; /* Positioning context for the overlay */
@@ -36,16 +36,18 @@
   height: 100%;
   width: 100%;
   padding: 20px;
-  background-color: rgba(165, 63, 243, 0.8); 
+  background-color: rgba(148, 18, 247, 0.8); 
   border-radius: 5px; 
 }
 
 .contact-intro {
   text-align: center;
   margin-bottom: 80px;
-  font-size: 1.2rem;
-  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+  font-size: 1.5rem;
+  font-weight: 500;
+  /* background-color: rgba(255, 255, 255, 0.8); Semi-transparent background */
   border-radius: 5px; 
+  color: rgb(232, 210, 255);
 }
 
 .contact-form .form-group {
@@ -54,10 +56,10 @@
 
 .contact-form label {
   display: block;
-  margin-bottom: -1px;
-  
+  margin-bottom: 5px;
+  font-size: 20px;
   margin-right: 550px;
-  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+  /* background-color: rgba(255, 255, 255, 0.8); Semi-transparent background */
   padding: 3px;
   border-radius: 5px;
 }
@@ -66,7 +68,7 @@
   width: 100%;
   padding: 10px;
   font-size: 1rem;
-  border: 2px solid #5eb06b;
+  /* border: 2px solid #5eb06b; */
   border-radius: 5px;
 }
 
@@ -77,7 +79,8 @@
 
 .contact-form .submit-button {
   display: block;
-  width: 100%;
+  margin-top: 40px;
+  width: 300px;
   padding: 10px;
   font-size: 1.2rem;
   color: #161414;
@@ -89,9 +92,6 @@
 }
 
 .contact-form .submit-button:hover {
-  background-color: #f2a109;
+  background-color: #5702bf;
   transform: scale(1.04);
 }
-
-
-

@@ -2,3 +2,7 @@
     width: 100%;
     text-align: center;
 }
+
+.chatbot-container h2{
+    margin-top: 70px;
+}

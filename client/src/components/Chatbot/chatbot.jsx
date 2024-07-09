@@ -7,9 +7,9 @@ const Chatbot = () => {
   return (
     <div className="chatbot-container">
       <Navbar />  
-      <h2>Chatbot</h2>
+      <h2>Zoe-Bot</h2>
       <iframe
-        src="https://loyal-simonne-novus-039a69cc.koyeb.app/" // Your deployed URL
+        src="https://brave-doralia-njiu-373920ef.koyeb.app/" // Your deployed URL
         title="Chatbot"
         width="100%"
         height="600"
