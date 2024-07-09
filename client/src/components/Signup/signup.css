@@ -1,10 +1,10 @@
-/* SignUpStyles.css */
+SignUpStyles.css
 /* AuthStyles.css */
 
 .auth-page {
   font-family: Arial, sans-serif;
-  /* background: url('https://www.shutterstock.com/image-illustration/white-jigsaw-puzzle-human-brain-on-1079962475') no-repeat center center fixed;
-  background-size: cover; */
+  background: url('https://www.shutterstock.com/image-illustration/white-jigsaw-puzzle-human-brain-on-1079962475') no-repeat center center fixed;
+  background-size: cover;
   margin: 0;
   padding: 0;
   width: 100%;
@@ -24,7 +24,8 @@
   text-align: center;
   max-width: 400px;
   width: 100%;
-  margin-top: 70px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .auth-form-group {
@@ -99,7 +100,7 @@
   margin-bottom: 10px;
 }
 
-.signup-button {
+.signup-button-page {
   padding: 10px 20px;
   background-color: #007bff;
   color: white;
@@ -110,7 +111,7 @@
   margin-top: 10px;
 }
 
-.signup-button:hover {
+.signup-button-page:hover {
   background-color: #0056b3;
 }
 

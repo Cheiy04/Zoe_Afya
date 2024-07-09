@@ -78,7 +78,7 @@ const SignUpPage = () => {
               required
             />
           </div>
-          <button type="submit" className="auth-button signup-button">Sign Up</button>
+          <button type="submit" className="auth-button signup-button-page">Sign Up</button>
         </form>
         <p className="auth-text signup-text">
           Already have an account? <Link to="/login" className="auth-link signup-link">Log in here</Link>
