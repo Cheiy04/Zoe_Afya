@@ -8,11 +8,13 @@ body {
   
   /* Header */
   .header {
+
+    
     text-align: center;
     padding: 2rem;
     /* background-color: #f8f8f8; */
     border-bottom: 1px solid #ddd;
-    background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(187, 110, 245, 0.95));
+    background: linear-gradient(to right, rgba(168, 101, 219, 0.95), rgba(181, 129, 221, 0.95));
   }
   
   .header-title {
@@ -30,7 +32,7 @@ body {
     justify-content: space-around;
     padding: 1rem;
     /* background-color: #fff; */
-    background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(187, 110, 245, 0.95));
+    background: linear-gradient(to right, rgba(168, 101, 219, 0.95), rgba(181, 129, 221, 0.95));
   }
   
   .service-item {

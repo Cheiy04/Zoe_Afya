@@ -27,9 +27,7 @@ export default function Navbar(){
         <li className="navbar-item"><Link to='/home'>Home</Link></li>
         {/* <li className="navbar-item"><Link to='/about'>About</Link></li> */}
         <li className="navbar-item"><Link to='/services'>Services</Link></li>
-        <li className="nav-item">
-              <Link className="nav-item" to="/chatbot">Chatbot</Link> {/* Link to chatbot */}
-            </li>
+        <li className="navbar-item"><Link to='/chatbot'>Chatbot</Link></li>
         <li className="navbar-item"><Link to='/contact'>Contact</Link></li>
       </ul>
       <button className="login-button">Login</button>

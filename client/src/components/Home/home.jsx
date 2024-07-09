@@ -90,12 +90,12 @@ function HomePage() {
               <button className="chat-now-button">Chat Now</button>
             </div>
 
-            <div className="service-item">
+            {/* <div className="service-item">
               <img src="https://static.wixstatic.com/media/11062b_83aaff14331c49a4b0f9e487e8452043~mv2.jpeg" alt="Service" className="service-image" />
               <h3 className="service-title">Dr. Max Mind, Psychiatrist</h3>
               <p className="service-description">Hi, I'm Dr. Max Mind, your Psychiatrist specializing in mental health and well-being. Whether you're struggling with depression, anxiety, or bipolar disorder, I offer compassionate care, medication management, and therapy to help you achieve mental wellness and resilience.</p>
               <button className="chat-now-button">Chat Now</button>
-            </div>
+            </div> */}
           </div>
         </section>
           

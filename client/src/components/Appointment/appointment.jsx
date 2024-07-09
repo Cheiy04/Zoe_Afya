@@ -103,6 +103,59 @@ const BookOnlinePage = () => {
           <p className="service-price">Price negotiable</p>
           <button className="book-now-button" onClick={handleBookNowClick}>Book Now</button>
         </div>
+
+        <div className="service-item">
+          <img src="https://static.wixstatic.com/media/11062b_8238f9663ccb4d44bc34815c5b40364f~mv2.jpeg/v1/fill/w_290,h_194,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/11062b_8238f9663ccb4d44bc34815c5b40364f~mv2.jpeg" alt="Psychotherapy" className="service-image" />
+          <h2 className="service-title">Dr. Leo Calm, Anesthesiologist</h2>
+          <p>I'm Dr. Leo Calm, your Anesthesiologist ensuring comfort and safety during surgical procedures. I specialize in pain management and anesthesia administration, ensuring a smooth surgical experience and effective post-operative pain relief. Your well-being is in capable hands with me.</p>
+          <p className="service-duration">Estimated Time: 1 hr</p>
+          <p className="service-price">Price negotiable</p>
+          <button className="book-now-button" onClick={handleBookNowClick}>Book Now</button>
+        </div>
+
+        <div className="service-item">
+          <img src="https://static.wixstatic.com/media/11062b_8238f9663ccb4d44bc34815c5b40364f~mv2.jpeg/v1/fill/w_290,h_194,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/11062b_8238f9663ccb4d44bc34815c5b40364f~mv2.jpeg" alt="Psychotherapy" className="service-image" />
+          <h2 className="service-title">Dr. Leo Calm, Anesthesiologist</h2>
+          <p>I'm Dr. Leo Calm, your Anesthesiologist ensuring comfort and safety during surgical procedures. I specialize in pain management and anesthesia administration, ensuring a smooth surgical experience and effective post-operative pain relief. Your well-being is in capable hands with me.</p>
+          <p className="service-duration">Estimated Time: 1 hr</p>
+          <p className="service-price">Price negotiable</p>
+          <button className="book-now-button" onClick={handleBookNowClick}>Book Now</button>
+        </div>
+
+        <div className="service-item">
+          <img src="https://static.wixstatic.com/media/11062b_8238f9663ccb4d44bc34815c5b40364f~mv2.jpeg/v1/fill/w_290,h_194,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/11062b_8238f9663ccb4d44bc34815c5b40364f~mv2.jpeg" alt="Psychotherapy" className="service-image" />
+          <h2 className="service-title">Dr. Leo Calm, Anesthesiologist</h2>
+          <p>I'm Dr. Leo Calm, your Anesthesiologist ensuring comfort and safety during surgical procedures. I specialize in pain management and anesthesia administration, ensuring a smooth surgical experience and effective post-operative pain relief. Your well-being is in capable hands with me.</p>
+          <p className="service-duration">Estimated Time: 1 hr</p>
+          <p className="service-price">Price negotiable</p>
+          <button className="book-now-button" onClick={handleBookNowClick}>Book Now</button>
+        </div>
+
+        <div className="service-item">
+          <img src="https://static.wixstatic.com/media/11062b_8238f9663ccb4d44bc34815c5b40364f~mv2.jpeg/v1/fill/w_290,h_194,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/11062b_8238f9663ccb4d44bc34815c5b40364f~mv2.jpeg" alt="Psychotherapy" className="service-image" />
+          <h2 className="service-title">Dr. Leo Calm, Anesthesiologist</h2>
+          <p>I'm Dr. Leo Calm, your Anesthesiologist ensuring comfort and safety during surgical procedures. I specialize in pain management and anesthesia administration, ensuring a smooth surgical experience and effective post-operative pain relief. Your well-being is in capable hands with me.</p>
+          <p className="service-duration">Estimated Time: 1 hr</p>
+          <p className="service-price">Price negotiable</p>
+          <button className="book-now-button" onClick={handleBookNowClick}>Book Now</button>
+        </div>
+
+        <div className="service-item">
+          <img src="https://static.wixstatic.com/media/11062b_8238f9663ccb4d44bc34815c5b40364f~mv2.jpeg/v1/fill/w_290,h_194,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/11062b_8238f9663ccb4d44bc34815c5b40364f~mv2.jpeg" alt="Psychotherapy" className="service-image" />
+          <h2 className="service-title">Dr. Leo Calm, Anesthesiologist</h2>
+          <p>I'm Dr. Leo Calm, your Anesthesiologist ensuring comfort and safety during surgical procedures. I specialize in pain management and anesthesia administration, ensuring a smooth surgical experience and effective post-operative pain relief. Your well-being is in capable hands with me.</p>
+          <p className="service-duration">Estimated Time: 1 hr</p>
+          <p className="service-price">Price negotiable</p>
+          <button className="book-now-button" onClick={handleBookNowClick}>Book Now</button>
+        </div>
+        {/* <div className="service-item">
+          <img src="https://static.wixstatic.com/media/11062b_8238f9663ccb4d44bc34815c5b40364f~mv2.jpeg/v1/fill/w_290,h_194,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/11062b_8238f9663ccb4d44bc34815c5b40364f~mv2.jpeg" alt="Psychotherapy" className="service-image" />
+          <h2 className="service-title">Dr. Leo Calm, Anesthesiologist</h2>
+          <p>I'm Dr. Leo Calm, your Anesthesiologist ensuring comfort and safety during surgical procedures. I specialize in pain management and anesthesia administration, ensuring a smooth surgical experience and effective post-operative pain relief. Your well-being is in capable hands with me.</p>
+          <p className="service-duration">Estimated Time: 1 hr</p>
+          <p className="service-price">Price negotiable</p>
+          <button className="book-now-button" onClick={handleBookNowClick}>Book Now</button>
+        </div> */}
       </section>
 
       {showPopup && (
