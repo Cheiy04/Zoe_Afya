@@ -57,6 +57,9 @@ const BookOnlinePage = () => {
       alert('Failed to send SMS. Please try again.');
     }
   };
+  const handleCloseClick = ()=>{
+    setShowPopup(false);
+  };
   
   
 
@@ -161,7 +164,8 @@ const BookOnlinePage = () => {
       {showPopup && (
         <div className="popup">
           <div className="popup-content">
-            <h2>Confirm Appointment</h2>
+            <button className="close-button" onClick={handleCloseClick}>X</button>
+            <h2>Book Appointment</h2>
             <input
               type="text"
               name="name"
@@ -169,6 +173,7 @@ const BookOnlinePage = () => {
               value={formData.name}
               onChange={handleInputChange}
               className="popup-input"
+              required
             />
             <input
               type="text"
@@ -177,6 +182,7 @@ const BookOnlinePage = () => {
               value={formData.number}
               onChange={handleInputChange}
               className="popup-input"
+              required
             />
             <input
               type="email"
