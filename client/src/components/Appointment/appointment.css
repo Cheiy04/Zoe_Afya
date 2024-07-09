@@ -3,6 +3,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+    background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(187, 110, 245, 0.95));
   background-color: #f8f0f5e9;
   color: #333;
   

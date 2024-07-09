@@ -1,11 +1,12 @@
 *{
   margin: 0;
   padding: 0;
+  
 }
 
 body{
   height: 0;
-  background-color: #ffffff;
+  background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(187, 110, 245, 0.95));
   color: rgb(0, 0, 0);
   font-family: outfit;
 }
