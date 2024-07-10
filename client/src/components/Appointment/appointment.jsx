@@ -33,7 +33,7 @@ const BookOnlinePage = () => {
     const { name, number, email } = formData;
   
     try {
-      const response = await fetch('http://localhost:3000/send-sms', {
+      const response = await fetch('https://zoe-afya-gie6.onrender.com/send-sms', {
         method: 'POST',
         mode: 'cors',
         headers: {
