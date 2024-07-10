@@ -29,7 +29,7 @@ function HomePage() {
               <img src={first_img} alt="Healthcare illustration" />
             </div>
           </div>
-          <button className="get-started-button btn-primary">Get Started</button>
+          
         </header>
   
         <section className="feature-section">
