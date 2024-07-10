@@ -8,7 +8,7 @@ const Chatbot = () => {
     <div className="chatbot-container">
       <Navbar />  
       <iframe
-        src="https://brave-doralia-njiu-373920ef.koyeb.app/" // Your deployed URL
+        src="https://zoe-qbb3.onrender.com/" // Your deployed URL
         title="Chatbot"
         width="100%"
         height="600"
