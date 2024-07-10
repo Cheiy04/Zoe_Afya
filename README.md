@@ -3,6 +3,8 @@
 Welcome to the web Platform Project built using the MERN (MongoDB, Express.js, React, Node.js) Stack. This project provides a robust and full-featured mental health application where we bridge the gap between patience and specialists. Implementing a chatbot with user friendly responses and assistance.
 
 **Live App Demo** 
+- https://zoe-afya.vercel.app/
+- https://www.youtube.com/watch?v=Og8GGC8lOOM
 
 ## Features
 
@@ -74,9 +76,6 @@ To run only the frontend:
 cd client
 npm run dev
 ```
-
-## preview
-- 
 
 
 ## Getting Started
