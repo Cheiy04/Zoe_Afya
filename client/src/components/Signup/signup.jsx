@@ -17,7 +17,7 @@ const SignUpPage = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch('http://localhost:3000/signup', {
+      const response = await fetch('https://zoe-afya-gie6.onrender.com/signup', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData),
