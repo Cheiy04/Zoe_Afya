@@ -2,9 +2,6 @@ import React, { useState } from 'react';
 import './contact.css'
 import Navbar from '../Navbar/navbar';
 import Footer from '../Footer/footer';
-import config from '../../../config'
-import dotenv from 'dotenv'
-dotenv.config({path:'../../.env'})
 
 const ContactPage = () => {
   const [formData, setFormData] = useState({
