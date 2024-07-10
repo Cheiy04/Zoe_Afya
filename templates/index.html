@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{company_name}}</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h3 class="mt-5">24/7 Medical Chatbot</h3>
+        <form method="POST">
+            <div class="form-group">
+                <label for="user_input">Chat with our bot:</label>
+                <input type="text" class="form-control" id="user_input" name="user_input" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Send</button>
+        </form>
+        <hr>
+        {% if user_input %}
+            <p>You: {{ user_input }}</p>
+        {% endif %}
+        {% if bot_response %}
+            {% include 'response.html' %}
+        {% endif %}
+
+        <script id="chatway" async="true" src="https://cdn.chatway.app/widget.js?id=XY6wrONlp6GR"></script>
+    </div>
+</body>
+</html>
