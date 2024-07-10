@@ -16,7 +16,7 @@ const LoginPage = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch('http://localhost:3000/login', {
+      const response = await fetch('https://zoe-afya-gie6.onrender.com/login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData),
