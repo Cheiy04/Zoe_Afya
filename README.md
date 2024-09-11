@@ -1,6 +1,6 @@
 # Zoe_Afya
 
-Welcome to the web Platform Project built using the MERN (MongoDB, Express.js, React, Node.js) Stack. This project provides a robust and full-featured mental health application where we bridge the gap between patience and specialists. Implementing a chatbot with user friendly responses and assistance.
+Welcome to the web Platform Project built using the MERN (MongoDB, Express.js, React, Node.js) Stack. This project provides a robust and full-featured mental health application where we bridge the gap between patients and specialists. Implementing a chatbot with user friendly responses and assistance.
 
 **Live App Demo** 
 - https://zoe-afya.vercel.app/
